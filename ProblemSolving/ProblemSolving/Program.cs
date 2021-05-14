@@ -16,7 +16,9 @@ namespace ProblemSolving
 
             //BeautifulDaysAtTheMoviesMain(); //Sorunun Çözümü çağırılıyor.
 
-            UtopianTreeMain(); //Sorunun Çözümü çağırılıyor.
+            //UtopianTreeMain(); //Sorunun Çözümü çağırılıyor.
+
+            SaveThePrisonerMain(); //Sorunun Çözümü çağırılıyor.
 
             Console.ReadKey();
         }
@@ -76,6 +78,21 @@ namespace ProblemSolving
 
             Console.WriteLine(height);
         }
+
+        public static void SaveThePrisonerMain()
+        {
+            int n = 5; //number of prisoner
+            int m = 2; //number of candy
+            int s = 1; //starting chair number
+
+            int unluckyPrisoner;
+
+            SaveThePrisoner saveThePrisoner = new SaveThePrisoner();
+            unluckyPrisoner = saveThePrisoner.SolSaveThePrisoner(n, m, s);
+
+            Console.WriteLine(unluckyPrisoner);
+        }
+
 
     }
 }
