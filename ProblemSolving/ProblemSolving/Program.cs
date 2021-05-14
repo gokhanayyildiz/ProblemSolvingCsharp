@@ -10,7 +10,7 @@ namespace ProblemSolving
     {
         static void Main(string[] args)
         {
-
+            Console.ReadKey();
         }
     }
 }
