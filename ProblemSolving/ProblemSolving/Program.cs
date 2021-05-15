@@ -81,9 +81,9 @@ namespace ProblemSolving
 
         public static void SaveThePrisonerMain()
         {
-            int n = 5; //number of prisoner
-            int m = 2; //number of candy
-            int s = 1; //starting chair number
+            int n = 715950220; //number of prisoner
+            int m = 876882456; //number of candy
+            int s = 195550680; //starting chair number
 
             int unluckyPrisoner;
 
