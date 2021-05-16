@@ -18,7 +18,11 @@ namespace ProblemSolving
 
             //UtopianTreeMain(); //Sorunun Çözümü çağırılıyor.
 
-            SaveThePrisonerMain(); //Sorunun Çözümü çağırılıyor.
+            //SaveThePrisonerMain(); //Sorunun Çözümü çağırılıyor.
+
+            //StringAnagramMain();  //Sorunun Çözümü çağırılıyor.
+
+
 
             Console.ReadKey();
         }
@@ -91,6 +95,24 @@ namespace ProblemSolving
             unluckyPrisoner = saveThePrisoner.SolSaveThePrisoner(n, m, s);
 
             Console.WriteLine(unluckyPrisoner);
+        }
+
+        public static void StringAnagramMain()
+        {
+            List<string> dictionary = new List<string>() {"hack","a","rank","khac","ackh","kran","rankhacker","a","ab","ba","stairs","raits"};
+            List<string> query = new List<string>() {"a","nark","bs","hack","stair"};
+
+            List<int> numbers = new List<int>();
+
+            StringAnagram stringAnagram = new StringAnagram();
+            numbers = stringAnagram.SolStringAnagram(dictionary, query);
+
+            for(int i = 0; i < numbers.Count; i++)
+            {
+                Console.WriteLine(numbers[i]);
+            }
+
+
         }
 
 
