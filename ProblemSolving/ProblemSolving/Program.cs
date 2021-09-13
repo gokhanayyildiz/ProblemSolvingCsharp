@@ -22,7 +22,9 @@ namespace ProblemSolving
 
             //StringAnagramMain();  //Sorunun Çözümü çağırılıyor.
 
-            FindDigitsMain(); //Sorunun Çözümü Çağırılıyor.
+            //FindDigitsMain(); //Sorunun Çözümü Çağırılıyor.
+
+            RepeatedStringMain(); //Sorunun Çözümü Çağırılıyor.
 
 
             Console.ReadKey();
@@ -137,10 +139,21 @@ namespace ProblemSolving
                 digits = findDigits.SolFindDigits(number);
 
                 Console.WriteLine("Bolen dijitler : " + digits);
-            }
-             
-            
-             
+            } 
+        }
+
+        public static void RepeatedStringMain()
+        {
+            long n = 736778906400;
+            string s = "a";
+            long result;
+
+            RepeatedString repeatedString = new RepeatedString();
+            //result = repeatedString.RepeatedStringSol(s, n);
+
+            //Console.WriteLine(result);
+
+            repeatedString.RepeatedStringSol2(s, n);
         }
 
     }
