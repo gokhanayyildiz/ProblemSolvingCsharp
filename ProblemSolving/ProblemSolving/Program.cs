@@ -22,6 +22,7 @@ namespace ProblemSolving
 
             //StringAnagramMain();  //Sorunun Çözümü çağırılıyor.
 
+            FindDigitsMain(); //Sorunun Çözümü Çağırılıyor.
 
 
             Console.ReadKey();
@@ -115,6 +116,32 @@ namespace ProblemSolving
 
         }
 
+
+        public static void FindDigitsMain()
+        {
+            int number = 123456789;
+            int digits;
+
+            int girilecekSayi;
+
+            Console.Write("Girilecek Sayiyi Girin : ");
+            girilecekSayi = Convert.ToInt32(Console.ReadLine());
+
+            FindDigits findDigits = new FindDigits();
+
+            for (int i = 1; i <= girilecekSayi; i++ )
+            {
+                Console.Write("Sayi : ");
+                number = Convert.ToInt32(Console.ReadLine());
+
+                digits = findDigits.SolFindDigits(number);
+
+                Console.WriteLine("Bolen dijitler : " + digits);
+            }
+             
+            
+             
+        }
 
     }
 }
