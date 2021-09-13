@@ -145,7 +145,7 @@ namespace ProblemSolving
         public static void RepeatedStringMain()
         {
             long n = 736778906400;
-            string s = "a";
+            string s = "kmretasscityylpdhuwjirnqimlkcgxubxmsxpypgzxtenweirknjtasxtvxemtwxuarabssvqdnktqadhyktagjxoanknhgilnm";
             long result;
 
             RepeatedString repeatedString = new RepeatedString();
