@@ -35,6 +35,11 @@ namespace ProblemSolving
 
             DayOfTheProgrammerMain();  //14/09/2021
 
+            //PDF Viewer sorusu için bi list tanımalanacak char listesi alfabenin tüm harfleri içine atılacak, ü
+            //örneğin a 0. index onların verdiği listede de a 0. index benim listemden harfin index'i bulunacak diğer metoda gönderilen liste ile kıyaslanacak
+            //en büyük olan karakter büyüklüğü iyi string uzunluğu çarpılıp dönülecek :) Designer PDF Viewer
+
+
             Console.ReadKey();
         }
 
