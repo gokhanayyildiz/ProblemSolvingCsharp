@@ -24,14 +24,16 @@ namespace ProblemSolving
 
             //FindDigitsMain(); //Sorunun Çözümü Çağırılıyor.
 
-            ///RepeatedStringMain(); //Sorunun Çözümü Çağırılıyor. 13/09/2021
+            ///RepeatedStringMain();   13/09/2021
             ///Güzel Çözüm Kontrol Et :)
 
-            ///BetweenTwoSetsMain(); //Sorunun Çözümü Çağırılıyor. 14/09/2021
+            ///BetweenTwoSetsMain();   14/09/2021
             ///ÇÖZEMEDİM.... :(
 
-            ///TimeConversionMain();//Sorunun Çözümü Çağırılıyor. 14/09/2021
+            ///TimeConversionMain();   14/09/2021
             ///ÇÖZÜMÜ BEĞENMEDİM :(
+
+            DayOfTheProgrammerMain();  //14/09/2021
 
             Console.ReadKey();
         }
@@ -188,6 +190,16 @@ namespace ProblemSolving
             
             TimeConversion timeConversion = new TimeConversion();
             string result = timeConversion.TimeConversionSol(s);
+
+            Console.WriteLine(result);
+        }
+
+        public static void DayOfTheProgrammerMain()
+        {
+            int year = 1800;
+
+            DayOfTheProgrammer dayOfTheProgrammer = new DayOfTheProgrammer();
+            string result = dayOfTheProgrammer.DayOfTheProgrammerSol(year);
 
             Console.WriteLine(result);
         }

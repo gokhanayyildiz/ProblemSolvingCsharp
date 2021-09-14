@@ -47,6 +47,7 @@
     <Compile Include="BeautifulDaysAtTheMovies.cs" />
     <Compile Include="BetweenTwoSets.cs" />
     <Compile Include="BirthdayCakeCandles.cs" />
+    <Compile Include="DayOfTheProgrammer.cs" />
     <Compile Include="FindDigits.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
