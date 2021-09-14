@@ -24,8 +24,14 @@ namespace ProblemSolving
 
             //FindDigitsMain(); //Sorunun Çözümü Çağırılıyor.
 
-            RepeatedStringMain(); //Sorunun Çözümü Çağırılıyor.
+            ///RepeatedStringMain(); //Sorunun Çözümü Çağırılıyor. 13/09/2021
+            ///Güzel Çözüm Kontrol Et :)
 
+            ///BetweenTwoSetsMain(); //Sorunun Çözümü Çağırılıyor. 14/09/2021
+            ///ÇÖZEMEDİM.... :(
+
+            ///TimeConversionMain();//Sorunun Çözümü Çağırılıyor. 14/09/2021
+            ///ÇÖZÜMÜ BEĞENMEDİM :(
 
             Console.ReadKey();
         }
@@ -146,7 +152,7 @@ namespace ProblemSolving
         {
             long n = 736778906400;
             string s = "kmretasscityylpdhuwjirnqimlkcgxubxmsxpypgzxtenweirknjtasxtvxemtwxuarabssvqdnktqadhyktagjxoanknhgilnm";
-            long result;
+            //long result;
 
             RepeatedString repeatedString = new RepeatedString();
             //result = repeatedString.RepeatedStringSol(s, n);
@@ -155,6 +161,37 @@ namespace ProblemSolving
 
             repeatedString.RepeatedStringSol2(s, n);
         }
+
+        public static void BetweenTwoSetsMain()
+        {
+            int allFactors;
+
+            List<int> a = new List<int>();
+            a.Add(2);
+            a.Add(4);
+
+            List<int> b = new List<int>();
+            b.Add(16);
+            b.Add(32);
+            b.Add(96);
+
+            BetweenTwoSets betweenTwoSets = new BetweenTwoSets();
+            allFactors = betweenTwoSets.BetweentTwoSetsSol(a, b);
+
+            Console.WriteLine(allFactors);
+
+        }
+        
+        public static void TimeConversionMain()
+        {
+            string s = "12:40:22AM";
+            
+            TimeConversion timeConversion = new TimeConversion();
+            string result = timeConversion.TimeConversionSol(s);
+
+            Console.WriteLine(result);
+        }
+        
 
     }
 }
