@@ -87,6 +87,7 @@ namespace ProblemSolving
 
         }
 
+        //Utopian Tree
         public static void UtopianTreeMain()
         {
             int n = 5; //Numbers of Cylcle
@@ -98,6 +99,7 @@ namespace ProblemSolving
             Console.WriteLine(height);
         }
 
+        //Save The Prisoner
         public static void SaveThePrisonerMain()
         {
             int n = 715950220; //number of prisoner
@@ -112,6 +114,7 @@ namespace ProblemSolving
             Console.WriteLine(unluckyPrisoner);
         }
 
+        //String Anagram
         public static void StringAnagramMain()
         {
             List<string> dictionary = new List<string>() {"hack","a","rank","khac","ackh","kran","rankhacker","a","ab","ba","stairs","raits"};
@@ -130,7 +133,7 @@ namespace ProblemSolving
 
         }
 
-
+        //FindDigitsMain
         public static void FindDigitsMain()
         {
             int number = 123456789;
@@ -154,6 +157,7 @@ namespace ProblemSolving
             } 
         }
 
+        //Repeated String
         public static void RepeatedStringMain()
         {
             long n = 736778906400;
@@ -188,6 +192,7 @@ namespace ProblemSolving
 
         }
         
+        //Time Conversion
         public static void TimeConversionMain()
         {
             string s = "12:40:22AM";
@@ -198,6 +203,7 @@ namespace ProblemSolving
             Console.WriteLine(result);
         }
 
+        //Day Of The Programmer
         public static void DayOfTheProgrammerMain()
         {
             int year = 1800;
@@ -208,6 +214,7 @@ namespace ProblemSolving
             Console.WriteLine(result);
         }
 
+        //Designer Pdf Viewer
         public static void DesignerPdfViewerMain()
         {
             List<int> h = new List<int>() { 1, 3, 1, 3, 1, 4, 1, 3, 2, 5, 5, 5, 5, 1, 1, 5, 5, 1, 5, 2, 5, 5, 5, 5, 5, 5, };
