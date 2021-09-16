@@ -33,11 +33,10 @@ namespace ProblemSolving
             ///TimeConversionMain();   14/09/2021
             ///ÇÖZÜMÜ BEĞENMEDİM :(
 
-            DayOfTheProgrammerMain();  //14/09/2021
+            //DayOfTheProgrammerMain();  14/09/2021
+ 
+            DesignerPdfViewerMain(); //15/09/2021
 
-            //PDF Viewer sorusu için bi list tanımalanacak char listesi alfabenin tüm harfleri içine atılacak, ü
-            //örneğin a 0. index onların verdiği listede de a 0. index benim listemden harfin index'i bulunacak diğer metoda gönderilen liste ile kıyaslanacak
-            //en büyük olan karakter büyüklüğü iyi string uzunluğu çarpılıp dönülecek :) Designer PDF Viewer
 
 
             Console.ReadKey();
@@ -207,6 +206,19 @@ namespace ProblemSolving
             string result = dayOfTheProgrammer.DayOfTheProgrammerSol(year);
 
             Console.WriteLine(result);
+        }
+
+        public static void DesignerPdfViewerMain()
+        {
+            List<int> h = new List<int>() { 1, 3, 1, 3, 1, 4, 1, 3, 2, 5, 5, 5, 5, 1, 1, 5, 5, 1, 5, 2, 5, 5, 5, 5, 5, 5, };
+            string word = "torn";
+            int result;
+
+            DesignerPdfViewer designerPdfViewer = new DesignerPdfViewer();
+            result = designerPdfViewer.DesignerPdfViewerSol(h, word);
+
+            Console.WriteLine(result);
+
         }
         
 
