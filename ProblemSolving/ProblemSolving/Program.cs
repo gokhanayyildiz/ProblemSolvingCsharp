@@ -34,10 +34,10 @@ namespace ProblemSolving
             ///ÇÖZÜMÜ BEĞENMEDİM :(
 
             //DayOfTheProgrammerMain();  14/09/2021
- 
-            DesignerPdfViewerMain(); //15/09/2021
 
+            //DesignerPdfViewerMain(); //15/09/2021
 
+            ViralAdvertisingMain(); //16/09/2021
 
             Console.ReadKey();
         }
@@ -228,6 +228,18 @@ namespace ProblemSolving
 
         }
         
+        //Viral Advertising
+        public static void ViralAdvertisingMain()
+        {
+            int n = 5;
+            int result;
+
+            ViralAdvertising viralAdvertising = new ViralAdvertising();
+            result = viralAdvertising.ViralAdvertisingSol(n);
+
+            Console.WriteLine(result);
+
+        }
 
     }
 }
