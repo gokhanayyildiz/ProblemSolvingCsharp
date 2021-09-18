@@ -24,20 +24,24 @@ namespace ProblemSolving
 
             //FindDigitsMain(); //Sorunun Çözümü Çağırılıyor.
 
-            ///RepeatedStringMain();   12/07/2021
-            ///Güzel Çözüm Kontrol Et :)
+            //RepeatedStringMain();  12/07/2021
 
-            ///BetweenTwoSetsMain();   14/09/2021
-            ///ÇÖZEMEDİM.... :(
+            //BetweenTwoSetsMain();  14/09/2021
+            ///5 test case gecilemedi
 
-            ///TimeConversionMain();   14/09/2021
+            //TimeConversionMain();  14/09/2021
             ///ÇÖZÜMÜ BEĞENMEDİM :(
 
             //DayOfTheProgrammerMain();  14/09/2021
 
-            //DesignerPdfViewerMain(); //15/09/2021
+            //DesignerPdfViewerMain();  //15/09/2021
 
-            ViralAdvertisingMain(); //16/09/2021
+            //ViralAdvertisingMain();  //16/09/2021
+
+            //CircularArrayRotationMain();  //17/09/2021
+            ///7 test case gecilemedi
+
+            //LibraryFineMain();  //18/09/2021
 
             Console.ReadKey();
         }
@@ -53,9 +57,7 @@ namespace ProblemSolving
 
             Console.WriteLine(countOfLongest);
         }
-
-
-
+ 
         //Angry Professor
         public static void AngryProfessorMain()
         {
@@ -68,8 +70,7 @@ namespace ProblemSolving
 
             Console.WriteLine(result);
         }
-
-
+         
         //Beautiful Days at the Movies
         public static void BeautifulDaysAtTheMoviesMain()
         {
@@ -240,6 +241,49 @@ namespace ProblemSolving
             Console.WriteLine(result);
 
         }
+
+        //Circular Array Rotation
+        public static void CircularArrayRotationMain()
+        {
+            List<int> a = new List<int>() { 1, 2, 3 };
+            int k = 2;
+            List<int> queries = new List<int>() { 0, 1,2 };
+
+            List<int> result = new List<int>();
+            Console.WriteLine("\n");
+
+            CircularArrayRotation circularArrayRotation = new CircularArrayRotation();
+
+            result = circularArrayRotation.CircularArrayRotationSol(a, k, queries);
+
+            foreach (var item in result)
+            {
+                Console.WriteLine(item);
+            }
+        }
+
+        //Library Fine
+        public static void LibraryFineMain()
+        {
+            //iade edilen tarih
+            int d1 = 14;
+            int m1 = 7;
+            int y1 = 2018;
+
+            //Kitabın iade tarihi
+            int d2 = 5;
+            int m2 = 7;
+            int y2 = 2018;
+
+            int result;
+
+            LibraryFine libraryFine = new LibraryFine();
+            result = libraryFine.LibrariyFineSol(d1, m1, y1, d2, m2, y2);
+
+            Console.WriteLine(result);
+        }
+
+
 
     }
 }
