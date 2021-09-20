@@ -30,7 +30,7 @@ namespace ProblemSolving
             ///5 test case gecilemedi
 
             //TimeConversionMain();  14/09/2021
-            ///ÇÖZÜMÜ BEĞENMEDİM :(
+            ///ÇÖZÜMÜ BEĞENMEDİM. DAHA GEÇERLİ BİR ÇÖZÜM VAR MI BAK
 
             //DayOfTheProgrammerMain();  14/09/2021
 
@@ -45,8 +45,12 @@ namespace ProblemSolving
 
             //AppendAndDeleteMain();  //19/09/2021
 
-            ScherlockAndSquaresMain(); //19/09/2021
+            //ScherlockAndSquaresMain(); //19/09/2021
             //time hatası almıştım test case geçemeyenleri inceleyerek buna göre vaziyet al... a = 465868129, b = 988379794 mesela
+
+            //SequenceEquationMain(); //20/09/2021
+            ///ÇÖZÜMÜ BEĞENMEDİM. DAHA GEÇERLİ BİR ÇÖZÜM VAR MI BAK
+
 
             Console.ReadKey();
         }
@@ -316,6 +320,21 @@ namespace ProblemSolving
             Console.WriteLine(result);
         }
 
+        //Sequence Equation
+        public static void SequenceEquationMain()
+        {
+            List<int> p = new List<int>() { 5, 2, 1, 3, 4 };
 
+            List<int> result = new List<int>();
+
+            SequenceEquation sequenceEquation = new SequenceEquation();
+            result = sequenceEquation.SequenceEquationSol(p);
+
+            foreach(int item in result)
+            {
+                Console.WriteLine(item);
+            }
+
+        }
     }
 }
