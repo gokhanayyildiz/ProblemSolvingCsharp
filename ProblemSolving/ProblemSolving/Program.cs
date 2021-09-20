@@ -45,11 +45,14 @@ namespace ProblemSolving
 
             //AppendAndDeleteMain();  //19/09/2021
 
-            //ScherlockAndSquaresMain(); //19/09/2021
+            //ScherlockAndSquaresMain();  //19/09/2021
             //time hatası almıştım test case geçemeyenleri inceleyerek buna göre vaziyet al... a = 465868129, b = 988379794 mesela
 
-            //SequenceEquationMain(); //20/09/2021
+            //SequenceEquationMain();  //20/09/2021
             ///ÇÖZÜMÜ BEĞENMEDİM. DAHA GEÇERLİ BİR ÇÖZÜM VAR MI BAK
+
+            //JumpingOnTheCloudsRevisitedMain();  //20/09/2021
+
 
 
             Console.ReadKey();
@@ -336,5 +339,22 @@ namespace ProblemSolving
             }
 
         }
+ 
+        public static void JumpingOnTheCloudsRevisitedMain()
+        {
+            int[] c = { 0, 0, 1, 0, 0, 1, 1, 0 }; //cumulus clouds 1's are thundercloud(-2) others (-1)
+            int k = 2; //range of jump
+            int result;
+
+
+            JumpingOnTheCloudsRevisited jumpingOnTheCloudsRevisited = new JumpingOnTheCloudsRevisited();
+            result = jumpingOnTheCloudsRevisited.JumpingOnTheCloudsRevisitedSol(c, k);
+
+            Console.WriteLine(result);
+        }
+
+
+
+
     }
 }
