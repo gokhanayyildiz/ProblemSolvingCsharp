@@ -43,6 +43,11 @@ namespace ProblemSolving
 
             //LibraryFineMain();  //18/09/2021
 
+            //AppendAndDeleteMain();  //19/09/2021
+
+            ScherlockAndSquaresMain(); //19/09/2021
+            //time hatası almıştım test case geçemeyenleri inceleyerek buna göre vaziyet al... a = 465868129, b = 988379794 mesela
+
             Console.ReadKey();
         }
 
@@ -283,6 +288,33 @@ namespace ProblemSolving
             Console.WriteLine(result);
         }
 
+        //Append And Delete
+        public static void AppendAndDeleteMain()
+        {
+            string s = "y";
+            string t = "yu";
+            int k = 2;
+            string result;
+
+            AppendAndDelete appendAndDelete = new AppendAndDelete();
+            result = appendAndDelete.AppendAndDeleteSol(s, t, k);
+
+            Console.WriteLine(result);
+        }
+
+        //Scherlock and Squares
+        public static void ScherlockAndSquaresMain()
+        {
+            int a = 24;
+            int b = 49;
+
+            int result;
+
+            ScherlockAndSquares scherlockAndSquares = new ScherlockAndSquares();
+            result = scherlockAndSquares.ScherlockAndSquaresSol(a, b);
+
+            Console.WriteLine(result);
+        }
 
 
     }

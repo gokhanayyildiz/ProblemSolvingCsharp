@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AngryProfessor.cs" />
+    <Compile Include="AppendAndDelete.cs" />
     <Compile Include="BeautifulDaysAtTheMovies.cs" />
     <Compile Include="BetweenTwoSets.cs" />
     <Compile Include="BirthdayCakeCandles.cs" />
@@ -56,6 +57,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RepeatedString.cs" />
     <Compile Include="SaveThePrisoner.cs" />
+    <Compile Include="ScherlockAndSquares.cs" />
     <Compile Include="StringAnagram.cs" />
     <Compile Include="TimeConversion.cs" />
     <Compile Include="UtopianTree.cs" />
