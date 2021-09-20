@@ -49,6 +49,7 @@
     <Compile Include="BetweenTwoSets.cs" />
     <Compile Include="BirthdayCakeCandles.cs" />
     <Compile Include="CircularArrayRotation.cs" />
+    <Compile Include="CutTheSticks.cs" />
     <Compile Include="DayOfTheProgrammer.cs" />
     <Compile Include="DesignerPdfViewer.cs" />
     <Compile Include="FindDigits.cs" />

@@ -97,7 +97,7 @@ namespace ProblemSolving
 
             //40- LibraryFineMain();  //18/09/2021
 
-            //CutTheSticksMain();  //21/09/2021
+            //41- CutTheSticksMain();  //21/09/2021
 
             //42- RepeatedStringMain();  12/07/2021
 
@@ -400,9 +400,20 @@ namespace ProblemSolving
             Console.WriteLine(result);
         }
 
+        //Cut The Sticks
         public static void CutTheSticksMain()
         {
+            List<int> arr = new List<int>() { 1, 2, 3, 4, 3, 3, 2, 1 };
 
+            List<int> result = new List<int>();
+
+            CutTheSticks cutTheSticks = new CutTheSticks();
+            result = cutTheSticks.CutTheSticksSol(arr);
+
+            foreach(var item in result)
+            {
+                Console.WriteLine(item);
+            }
         }
 
 
