@@ -10,50 +10,96 @@ namespace ProblemSolving
     {
         static void Main(string[] args)
         {
-            //BirthdayCakeCandlesMain(); //Sorunun çözümü çağırılıyor.
+            //0- StringAnagramMain();  //Sorunun Çözümü çağırılıyor.
 
-            //AngryProfessorMain(); //Sorunun Çözümü çağırılıyor.
+            //1- SolveMeFirst
 
-            //BeautifulDaysAtTheMoviesMain(); //Sorunun Çözümü çağırılıyor.
+            //2- SimpleArraySum
 
-            //UtopianTreeMain(); //Sorunun Çözümü çağırılıyor.
+            //3- CompareTheTriplets
 
-            //SaveThePrisonerMain(); //Sorunun Çözümü çağırılıyor.
+            //4- AVeryBigSum
 
-            //StringAnagramMain();  //Sorunun Çözümü çağırılıyor.
+            //5- DiagonalDifference
 
-            //FindDigitsMain(); //Sorunun Çözümü Çağırılıyor.
+            //6- PlusMinus
 
-            //RepeatedStringMain();  12/07/2021
+            //7- Staircase
 
-            //BetweenTwoSetsMain();  14/09/2021
+            //8- MiniMaxSum
+
+            //9- BirthdayCakeCandlesMain(); //Sorunun çözümü çağırılıyor.
+
+            //10- TimeConversionMain();  14/09/2021
+            ///ÇÖZÜMÜ BEĞENMEDİM. DAHA GEÇERLİ BİR ÇÖZÜM VAR MI BAK
+
+            //11- GradingStudents
+
+            //12- AppleAndOrange
+
+            //13- NumberLineJumps
+
+            //14- BetweenTwoSetsMain();  14/09/2021
             ///5 test case gecilemedi
 
-            //TimeConversionMain();  14/09/2021
-            ///ÇÖZÜMÜ BEĞENMEDİM. DAHA GEÇERLİ BİR ÇÖZÜM VAR MI BAK
+            //15- BreakingTheRecords
 
-            //DayOfTheProgrammerMain();  14/09/2021
+            //16- SubarrayDivision
 
-            //DesignerPdfViewerMain();  //15/09/2021
+            //17- DivisibleSumPairs
 
-            //ViralAdvertisingMain();  //16/09/2021
+            //18- MignatoryBirds
 
-            //CircularArrayRotationMain();  //17/09/2021
+            //19- DayOfTheProgrammerMain();  14/09/2021
+
+            //20- BillDivision
+
+            //21- SalesByMatch
+
+            //22- DrawingBook
+
+            //23- CountingValleys
+
+            //24- ElectronicsShop
+
+            //25- CatsAndMouse
+
+            //26- PickingNumbers
+
+            //27- TheHurdleRace
+
+            //28- DesignerPdfViewerMain();  //15/09/2021
+
+            //29- UtopianTreeMain(); //Sorunun Çözümü çağırılıyor.
+
+            //30- AngryProfessorMain(); //Sorunun Çözümü çağırılıyor.
+
+            //31- BeautifulDaysAtTheMoviesMain(); //Sorunun Çözümü çağırılıyor.
+
+            //32- ViralAdvertisingMain();  //16/09/2021
+
+            //33- SaveThePrisonerMain(); //Sorunun Çözümü çağırılıyor.
+
+            //34- CircularArrayRotationMain();  //17/09/2021
             ///7 test case gecilemedi
 
-            //LibraryFineMain();  //18/09/2021
-
-            //AppendAndDeleteMain();  //19/09/2021
-
-            //ScherlockAndSquaresMain();  //19/09/2021
-            //time hatası almıştım test case geçemeyenleri inceleyerek buna göre vaziyet al... a = 465868129, b = 988379794 mesela
-
-            //SequenceEquationMain();  //20/09/2021
+            //35- SequenceEquationMain();  //20/09/2021
             ///ÇÖZÜMÜ BEĞENMEDİM. DAHA GEÇERLİ BİR ÇÖZÜM VAR MI BAK
 
-            //JumpingOnTheCloudsRevisitedMain();  //20/09/2021
+            //36- JumpingOnTheCloudsRevisitedMain();  //20/09/2021
 
+            //37- FindDigitsMain(); //Sorunun Çözümü Çağırılıyor.
 
+            //38- AppendAndDeleteMain();  //19/09/2021
+
+            //39- ScherlockAndSquaresMain();  //19/09/2021
+            //time hatası almıştım test case geçemeyenleri inceleyerek buna göre vaziyet al... a = 465868129, b = 988379794 mesela
+
+            //40- LibraryFineMain();  //18/09/2021
+
+            //CutTheSticksMain();  //21/09/2021
+
+            //42- RepeatedStringMain();  12/07/2021
 
             Console.ReadKey();
         }
@@ -339,7 +385,8 @@ namespace ProblemSolving
             }
 
         }
- 
+
+        //Jumping On The Clouds: Revisited
         public static void JumpingOnTheCloudsRevisitedMain()
         {
             int[] c = { 0, 0, 1, 0, 0, 1, 1, 0 }; //cumulus clouds 1's are thundercloud(-2) others (-1)
@@ -353,7 +400,10 @@ namespace ProblemSolving
             Console.WriteLine(result);
         }
 
+        public static void CutTheSticksMain()
+        {
 
+        }
 
 
     }
