@@ -101,6 +101,8 @@ namespace ProblemSolving
 
             //42- RepeatedStringMain();  12/07/2021
 
+            //43- JumpingOnTheCloudsMain();  //21/09/2021
+
             Console.ReadKey();
         }
 
@@ -416,6 +418,17 @@ namespace ProblemSolving
             }
         }
 
+        //Jumping On The Clouds
+        public static void JumpingOnTheCloudsMain()
+        {
+            List<int> c = new List<int>() { 0, 0, 0, 1, 0, 0 };
+            int result;
+
+            JumpingOnTheClouds jumpingOnTheClouds = new JumpingOnTheClouds();
+            result = jumpingOnTheClouds.JumpingOnTheCloudsSol(c);
+
+            Console.WriteLine(result);
+        }
 
     }
 }

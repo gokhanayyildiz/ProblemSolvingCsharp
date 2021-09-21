@@ -53,6 +53,7 @@
     <Compile Include="DayOfTheProgrammer.cs" />
     <Compile Include="DesignerPdfViewer.cs" />
     <Compile Include="FindDigits.cs" />
+    <Compile Include="JumpingOnTheClouds.cs" />
     <Compile Include="JumpingOnTheCloudsRevisited.cs" />
     <Compile Include="LibraryFine.cs" />
     <Compile Include="Program.cs" />
