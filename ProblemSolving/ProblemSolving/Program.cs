@@ -102,6 +102,9 @@ namespace ProblemSolving
             //42- RepeatedStringMain();  12/07/2021
 
             //43- JumpingOnTheCloudsMain();  //21/09/2021
+            ///ÇÖZÜMÜ BEĞENMEDİM. DAHA GEÇERLİ BİR ÇÖZÜM VAR MI BAK
+            
+            //44- EqualizeTheArrayMain();  
 
             Console.ReadKey();
         }
@@ -430,5 +433,16 @@ namespace ProblemSolving
             Console.WriteLine(result);
         }
 
+        //Equalize The Array
+        public static void EqualizeTheArrayMain()
+        {
+            List<int> arr = new List<int>() { 3, 3, 2, 1, 3 };
+            int result;
+
+            EqualizeTheArray equalizeTheArray = new EqualizeTheArray();
+            result = equalizeTheArray.EqualizeTheArraySol(arr);
+
+            Console.WriteLine(result);
+        }
     }
 }

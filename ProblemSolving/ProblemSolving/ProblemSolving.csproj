@@ -52,6 +52,7 @@
     <Compile Include="CutTheSticks.cs" />
     <Compile Include="DayOfTheProgrammer.cs" />
     <Compile Include="DesignerPdfViewer.cs" />
+    <Compile Include="EqualizeTheArray.cs" />
     <Compile Include="FindDigits.cs" />
     <Compile Include="JumpingOnTheClouds.cs" />
     <Compile Include="JumpingOnTheCloudsRevisited.cs" />
