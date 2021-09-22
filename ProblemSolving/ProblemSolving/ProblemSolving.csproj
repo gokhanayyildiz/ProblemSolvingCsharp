@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AcmIcpcTeam.cs" />
     <Compile Include="AngryProfessor.cs" />
     <Compile Include="AppendAndDelete.cs" />
     <Compile Include="BeautifulDaysAtTheMovies.cs" />

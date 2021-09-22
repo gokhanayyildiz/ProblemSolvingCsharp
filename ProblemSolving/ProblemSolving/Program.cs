@@ -103,8 +103,12 @@ namespace ProblemSolving
 
             //43- JumpingOnTheCloudsMain();  //21/09/2021
             ///ÇÖZÜMÜ BEĞENMEDİM. DAHA GEÇERLİ BİR ÇÖZÜM VAR MI BAK
+
+            //44- EqualizeTheArrayMain();  //22/09/2021
+
+            //45- AcmIcpcTeamMain();  //22/09/2021
+            ///ÇÖZÜMÜ BEĞENMEDİM. DAHA GEÇERLİ BİR ÇÖZÜM VAR MI BAK
             
-            //44- EqualizeTheArrayMain();  
 
             Console.ReadKey();
         }
@@ -444,5 +448,24 @@ namespace ProblemSolving
 
             Console.WriteLine(result);
         }
+
+        //ACM ICPC Team 
+        public static void AcmIcpcTeamMain()
+        {
+            List<string> topics = new List<string>() { "10101", "11110", "00010" };
+
+            List<int> result = new List<int>();
+
+            AcmIcpcTeam acmIcpcTeam = new AcmIcpcTeam();
+            result = acmIcpcTeam.AcmIcpcTeamSol(topics);
+
+            foreach (var item in result)
+            {
+                Console.WriteLine(item);
+            }
+        }
+
+
+
     }
 }
