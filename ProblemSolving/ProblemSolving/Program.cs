@@ -109,15 +109,20 @@ namespace ProblemSolving
             //45- AcmIcpcTeamMain();  //22/09/2021
             ///ÇÖZÜMÜ BEĞENMEDİM. DAHA GEÇERLİ BİR ÇÖZÜM VAR MI BAK
 
-            //46- TaumAndBdayMain(); //23/09/2021
+            //46- TaumAndBdayMain(); //22/09/2021
 
             //47- ModifiedKaprekarNumbers();
 
-            //48- BeautifulTripletsMain(); //23/09/2021
+            //48- BeautifulTripletsMain();  //23/09/2021
             //time hatası almıştım test case geçemeyenleri inceleyerek buna göre vaziyet al.
 
-            //49- MinimumDistanceMain();
+            //49- MinimumDistanceMain();  //23/09/2021
             //time hatası almıştım test case geçemeyenleri inceleyerek buna göre vaziyet al.
+
+            //50- HalloweenSaleMain();  //23/09/2021
+
+            //51- ChocolateFeastMain();  //23/09/2021
+            //time ex : while (wrapper >= m) içine yazılanlarda da alakalı
 
             Console.ReadKey();
         }
@@ -520,11 +525,36 @@ namespace ProblemSolving
 
         }
 
+        //Halloween Sale
+        public static void HalloweenSaleMain()
+        {
+            int p = 73;
+            int d = 72;
+            int m = 44;
+            int s = 9163;
 
+            int result;
 
+            HallowenSale hallowenSale = new HallowenSale();
+            result = hallowenSale.HallowenSaleSol(p, d, m, s);
 
+            Console.WriteLine(result);
+        }
 
+        //Chocolate Feast
+        public static void ChocolateFeastMain()
+        {
+            int n = 98056;
+            int c = 53;
+            int m = 50470;
 
+            int result;
+
+            ChocolateFeast chocolateFeast = new ChocolateFeast();
+            result = chocolateFeast.ChocolateFeastSol(n, c, m);
+
+            Console.WriteLine(result);
+        }
 
 
 

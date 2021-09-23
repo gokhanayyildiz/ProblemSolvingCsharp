@@ -50,12 +50,14 @@
     <Compile Include="BeautifulTriplets.cs" />
     <Compile Include="BetweenTwoSets.cs" />
     <Compile Include="BirthdayCakeCandles.cs" />
+    <Compile Include="ChocolateFeast.cs" />
     <Compile Include="CircularArrayRotation.cs" />
     <Compile Include="CutTheSticks.cs" />
     <Compile Include="DayOfTheProgrammer.cs" />
     <Compile Include="DesignerPdfViewer.cs" />
     <Compile Include="EqualizeTheArray.cs" />
     <Compile Include="FindDigits.cs" />
+    <Compile Include="HallowenSale.cs" />
     <Compile Include="JumpingOnTheClouds.cs" />
     <Compile Include="JumpingOnTheCloudsRevisited.cs" />
     <Compile Include="LibraryFine.cs" />
