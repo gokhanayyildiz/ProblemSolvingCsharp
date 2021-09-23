@@ -47,6 +47,7 @@
     <Compile Include="AngryProfessor.cs" />
     <Compile Include="AppendAndDelete.cs" />
     <Compile Include="BeautifulDaysAtTheMovies.cs" />
+    <Compile Include="BeautifulTriplets.cs" />
     <Compile Include="BetweenTwoSets.cs" />
     <Compile Include="BirthdayCakeCandles.cs" />
     <Compile Include="CircularArrayRotation.cs" />

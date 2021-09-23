@@ -109,7 +109,11 @@ namespace ProblemSolving
             //45- AcmIcpcTeamMain();  //22/09/2021
             ///ÇÖZÜMÜ BEĞENMEDİM. DAHA GEÇERLİ BİR ÇÖZÜM VAR MI BAK
 
-            TaumAndBdayMain();
+            //46- TaumAndBdayMain(); //23/09/2021
+
+            //47- ModifiedKaprekarNumbers();
+
+            BeautifulTripletsMain();
 
             Console.ReadKey();
         }
@@ -483,6 +487,26 @@ namespace ProblemSolving
             Console.WriteLine(result);
 
         }
+
+        //Beautiful Triplets 
+        public static void BeautifulTripletsMain()
+        {
+            int d = 1;
+            List<int> arr = new List<int>() { 2, 2, 3, 4, 5 };
+
+            int result;
+
+            BeautifulTriplets beautifulTriplets = new BeautifulTriplets();
+            result = beautifulTriplets.BeautifulTripletsSol(d, arr);
+
+            Console.WriteLine(result);
+        }
+
+
+
+
+
+
 
     }
 }
