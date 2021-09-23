@@ -108,7 +108,8 @@ namespace ProblemSolving
 
             //45- AcmIcpcTeamMain();  //22/09/2021
             ///ÇÖZÜMÜ BEĞENMEDİM. DAHA GEÇERLİ BİR ÇÖZÜM VAR MI BAK
-            
+
+            TaumAndBdayMain();
 
             Console.ReadKey();
         }
@@ -465,7 +466,23 @@ namespace ProblemSolving
             }
         }
 
+        //Taum and B'day
+        public static void TaumAndBdayMain()
+        {
+            int b = 27984;
+            int w = 1402;
+            int bc = 619246;
+            int wc = 615589;
+            int z = 247954;
 
+            long result;
+
+            TaumAndBday taumAndBday = new TaumAndBday();
+            result = taumAndBday.TaumAndBdaySol(b, w, bc, wc, z);
+
+            Console.WriteLine(result);
+
+        }
 
     }
 }

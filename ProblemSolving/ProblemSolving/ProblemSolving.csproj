@@ -65,6 +65,7 @@
     <Compile Include="ScherlockAndSquares.cs" />
     <Compile Include="SequenceEquation.cs" />
     <Compile Include="StringAnagram.cs" />
+    <Compile Include="TaumAndBday.cs" />
     <Compile Include="TimeConversion.cs" />
     <Compile Include="UtopianTree.cs" />
     <Compile Include="ViralAdvertising.cs" />
