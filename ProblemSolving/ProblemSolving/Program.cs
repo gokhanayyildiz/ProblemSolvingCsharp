@@ -113,7 +113,11 @@ namespace ProblemSolving
 
             //47- ModifiedKaprekarNumbers();
 
-            BeautifulTripletsMain();
+            //48- BeautifulTripletsMain(); //23/09/2021
+            //time hatası almıştım test case geçemeyenleri inceleyerek buna göre vaziyet al.
+
+            //49- MinimumDistanceMain();
+            //time hatası almıştım test case geçemeyenleri inceleyerek buna göre vaziyet al.
 
             Console.ReadKey();
         }
@@ -501,6 +505,22 @@ namespace ProblemSolving
 
             Console.WriteLine(result);
         }
+
+        //Minimum Distance 
+        public static void MinimumDistanceMain()
+        {
+            List<int> a = new List<int>() { 7, 1, 3, 4, 1, 7 };
+
+            int result;
+
+            MinimumDistance minimumDistance = new MinimumDistance();
+            result = minimumDistance.MinimumDistanceSol(a);
+
+            Console.WriteLine(result);
+
+        }
+
+
 
 
 
