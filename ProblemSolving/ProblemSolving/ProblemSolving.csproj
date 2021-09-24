@@ -62,6 +62,7 @@
     <Compile Include="JumpingOnTheCloudsRevisited.cs" />
     <Compile Include="LibraryFine.cs" />
     <Compile Include="LisaWorkbook.cs" />
+    <Compile Include="MaximizingXOR.cs" />
     <Compile Include="MinimumDistance.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

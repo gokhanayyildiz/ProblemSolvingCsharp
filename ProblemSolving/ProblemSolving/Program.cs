@@ -11,7 +11,7 @@ namespace ProblemSolving
         static void Main(string[] args)
         {
             //0- StringAnagramMain();  //Sorunun Çözümü çağırılıyor.
-
+            //0- MaximizingXORMain();  //25/09/2021      CounterGameden önceki :)
             //1- SolveMeFirst
 
             //2- SimpleArraySum
@@ -126,7 +126,7 @@ namespace ProblemSolving
 
             //52- ServiceLaneMain();  //24/09/2021
 
-            LisaWorkbookMain();
+            //53- LisaWorkbookMain();  //24/09/2021
 
             Console.ReadKey();
         }
@@ -593,6 +593,7 @@ namespace ProblemSolving
 
         }
 
+        //Lisa Workbook
         public static void LisaWorkbookMain()
         {
             int n = 5;
@@ -606,6 +607,20 @@ namespace ProblemSolving
 
             Console.WriteLine(result);
 
+        }
+
+        //Maximizing XOR
+        public static void MaximizingXORMain()
+        {
+            int l = 10;
+            int r = 15;
+
+            int result;
+
+            MaximizingXOR maximizingXOR = new MaximizingXOR();
+            result = maximizingXOR.MaximizingXORSol(l,r);
+
+            Console.WriteLine(result);
         }
     }
 }
