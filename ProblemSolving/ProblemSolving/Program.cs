@@ -124,6 +124,9 @@ namespace ProblemSolving
             //51- ChocolateFeastMain();  //23/09/2021
             //time ex : while (wrapper >= m) içine yazılanlarda da alakalı
 
+            //52- ServiceLaneMain();  //24/09/2021
+
+
             Console.ReadKey();
         }
 
@@ -556,7 +559,38 @@ namespace ProblemSolving
             Console.WriteLine(result);
         }
 
+        //Service Lane
+        public static void ServiceLaneMain()
+        {
+            int n = 4;
 
+            List<int> width = new List<int>() { 2, 3, 2, 1, 3, 2, 3, 3 };
+
+            List<int> a = new List<int> { 0, 3 };
+            List<int> b = new List<int> { 4, 6 };
+            List<int> c = new List<int> { 6, 7 };
+            List<int> d = new List<int> { 3, 5 };
+            List<int> e = new List<int> { 0, 7 };
+
+            //Nested List
+            List<List<int>> cases = new List<List<int>>();
+            cases.Add(a);
+            cases.Add(b);
+            cases.Add(c);
+            cases.Add(d);
+            cases.Add(e);
+
+            List<int> result = new List<int>();
+
+            ServiceLane serviceLane = new ServiceLane();
+            result = serviceLane.ServiceLaneSol(n, cases, width);
+
+            foreach (var item in result)
+            {
+                Console.WriteLine(item);
+            }
+
+        }
 
     }
 }

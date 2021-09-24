@@ -68,6 +68,7 @@
     <Compile Include="SaveThePrisoner.cs" />
     <Compile Include="ScherlockAndSquares.cs" />
     <Compile Include="SequenceEquation.cs" />
+    <Compile Include="ServiceLane.cs" />
     <Compile Include="StringAnagram.cs" />
     <Compile Include="TaumAndBday.cs" />
     <Compile Include="TimeConversion.cs" />
