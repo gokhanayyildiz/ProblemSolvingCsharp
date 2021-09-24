@@ -126,6 +126,7 @@ namespace ProblemSolving
 
             //52- ServiceLaneMain();  //24/09/2021
 
+            LisaWorkbookMain();
 
             Console.ReadKey();
         }
@@ -592,5 +593,19 @@ namespace ProblemSolving
 
         }
 
+        public static void LisaWorkbookMain()
+        {
+            int n = 5;
+            int k = 3;
+            List<int> arr = new List<int>() { 4, 2, 6, 1, 10 };
+
+            int result;
+
+            LisaWorkbook lisaWorkbook = new LisaWorkbook();
+            result = lisaWorkbook.LisaWorkbookSol(n, k, arr);
+
+            Console.WriteLine(result);
+
+        }
     }
 }
